@@ -54,7 +54,7 @@ python main_place.py --dset PLACE --gpu_id 2
 
 ### Citation
 
-If you find this code useful for your research, please cite our papers
+If you find this code useful for your research, please cite our paper
 
 ```
 @misc{sheng2023self, 
