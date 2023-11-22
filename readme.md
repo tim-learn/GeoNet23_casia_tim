@@ -1,10 +1,11 @@
-# Self-training solutions for the ICCV 2023 GeoNet Challenge
+# 1st in the ICCV-2023 GeoUniDA challenge
 
-## Team Name: CASIA-TIM
+### Paper:
+[Self-training solutions for the ICCV 2023 GeoNet Challenge](https://liangjian.xyz/assets/paper/iccvw23.pdf)
 
-Members: Lijun Sheng, Zhengbo Wang, Jian Liang (Contact author)
+### Team: CASIA-TIM
 
-Affiliation: Institute of Automation, Chinese Academy of Sciences (CASIA)
+Members: Lijun Sheng, Zhengbo Wang, Jian Liang
 
 ### File structure:
 ```
@@ -39,23 +40,38 @@ We integrate the source model training, model adaptation, and test file generati
 
 ### Training:
 
-1. ##### GeoUniDA
-	```python
-		python main_unida.py --dset UNIDA --gpu_id 0 
-	```
+1. #### GeoUniDA
+```python
+python main_unida.py --dset UNIDA --gpu_id 0 
+```
 
-2. ##### GeoImNet
-	```python
-		python main_imnet.py --dset OBJ --gpu_id 1 
-	```
+2. #### GeoImNet
+```python
+python main_imnet.py --dset OBJ --gpu_id 1 
+```
 
-3. ##### GeoPlace
-	```python
-		python main_place.py --dset PLACE --gpu_id 2 
-	```
+3. #### GeoPlace
+```python
+python main_place.py --dset PLACE --gpu_id 2 
+```
 
+### Citation
+
+If you find this code useful for your research, please cite our papers
+
+```
+@misc{sheng2023self, 
+ title={Self-training solutions for the ICCV 2023 GeoNet Challenge}, 
+ author={Sheng, Lijun and Wang, Zhengbo and Liang, Jian}, 
+ year={2023}
+}
+```
 
 ### Contact
 
-- [liangjian92@gmail.com](mailto:liangjian92@gmail.com)
+- [**liangjian92@gmail.com**](mailto:liangjian92@gmail.com)
+
+- [lijun.sheng@cripac.ia.ac.cn](mailto:lijun.sheng@cripac.ia.ac.cn)
+
+- [zhengbo.wang@cripac.ia.ac.cn](mailto:zhengbo.wang@cripac.ia.ac.cn)
 
