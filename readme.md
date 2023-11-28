@@ -1,6 +1,6 @@
 # 1st in the ICCV-2023 GeoUniDA challenge
 
-[[Challenge]](https://geonet-challenge.github.io/ICCV2023/challenge.html) [[Leaderboard]](https://eval.ai/web/challenges/challenge-page/2111/leaderboard/4979) [[Paper]](https://liangjian.xyz/assets/paper/iccvw2023.pdf)
+[[Challenge]](https://geonet-challenge.github.io/ICCV2023/challenge.html) [[Leaderboard]](https://eval.ai/web/challenges/challenge-page/2111/leaderboard/4979) [[Paper]](https://liangjian.xyz/assets/paper/iccvw23.pdf)
 
 Team: CASIA-TIM (Members: Lijun Sheng, Zhengbo Wang, Jian Liang)
 
